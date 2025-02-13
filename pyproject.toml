@@ -1,6 +1,6 @@
 [tool.poetry]
-name = "pubmedpaperfetcher"
-version = "0.1.0"
+name = "sachin63kumar-paper-fetcher"
+version = "0.1.1"
 description = "Fetch PubMed research papers with non-academic authors"
 authors = ["Sachin_Kumar <202152335@iiitvadodara.ac.in>"]
 readme = "README.md"
@@ -12,7 +12,7 @@ biopython = "^1.85"
 requests = "^2.32.3"
 
 [tool.poetry.scripts]
-get-papers-list = "cli:main"
+get-papers-list = "pubmed_fetcher.cli:main"
 
 [build-system]
 requires = ["poetry-core>=2.0.0,<3.0.0"]
